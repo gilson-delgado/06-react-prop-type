@@ -1,0 +1,31 @@
+.titulo{
+    color: green;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.card {
+    padding: 2em;
+  }
+  
+.logo-react {
+    height: 5em;
+    padding: 2em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: logo-spin 5s infinite;
+  }
+  .logo-vite{
+    height: 5em;
+    padding: 2em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: logo-spin 5s infinite;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em blue);
+  }
+  .read-the-docs {
+    color:coral;
+  }
+ 
